@@ -22,8 +22,8 @@ python src/detect_image.py
 ✔ Cropped violation images saved in violations/
 
 🖼️ Demo Images (Add your images)
-![Helmet Detection](images/sample_detection.jpg)
-![Violation Example](images/violation_crop.jpg)
+![Helmet Detection](images/test3_annotated_20251209_000823.jpg)
+![Violation Example](images/test4_annotated_20251209_000743.jpg)
 
 ----------------------------------------------------------------------
 
