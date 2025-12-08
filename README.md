@@ -104,11 +104,12 @@ The dataset was created manually and annotated using **Roboflow**.
 ### **Classes**
 - `With Helmet`
 - `Without Helmet`
-
-### **Dataset Split**
-- **Train:** 82% (95 images)  
-- **Validation:** 12% (14 images)  
-- **Test:** 6% (7 images)
+This project uses a custom dataset of 1700+ images, manually annotated using Roboflow.
+Roboflow automatically split the dataset:
+Train: ~82%
+Validation: ~12%
+Test: ~6%
+This large dataset significantly improved model performance and real-world accuracy.
 
 ### **Preprocessing**
 - Auto Orient: ON  
