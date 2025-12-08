@@ -3,7 +3,6 @@
 
 Smart Helmet AI – Smart Visor is an AI-based system that detects whether a rider is **wearing a helmet or not**.  
 The system automatically identifies violations and saves cropped images for further processing or enforcement.
-
 This project uses a **custom-trained YOLOv8 model** for highly accurate helmet detection.
 
 ---
@@ -48,8 +47,24 @@ While riding, I observed a common scenario:
 
 This inspired the idea:
 
-👉 **Create an automated system that detects helmet violations using AI.**
-
+👉 **Created an automated system that detects helmet violations using AI.**
+![ Smart Visor ](images/Smart_Helmet.png)
+![Helmet Detection](images/Circuit.png)
+🔹 Sensors Used in the Smart Helmet
+1. MQ3 Alcohol Sensor
+Detects alcohol in the rider’s breath
+Locks engine + shows warning if alcohol is detected
+2. PIR Motion Sensor
+Detects nearby vehicles or movement
+Displays “Vehicle in Range” + alerts rider
+3. Camera Trigger Button
+Works as a camera input
+When pressed → captures image (simulated) + LED blinks
+🔹 Output Components
+LED → blinks on alerts & image capture
+Buzzer → warning sounds
+Motor → simulates engine ON/OFF
+LCD Display → shows all messages
 ---
 
 ## 🎯 **Project Motivation**
