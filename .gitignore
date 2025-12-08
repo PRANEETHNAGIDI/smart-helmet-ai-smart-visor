@@ -1,0 +1,26 @@
+# Python venv and cache
+venv/
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+
+# YOLO/Ultralytics outputs
+runs/
+violations/
+outputs/
+
+# Media files (optional: keep if you want some examples)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Misc
+*.zip
