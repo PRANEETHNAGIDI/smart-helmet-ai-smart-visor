@@ -4,7 +4,6 @@
 Smart Helmet AI – Smart Visor is an AI-based system that detects whether a rider is **wearing a helmet or not**.  
 The system automatically identifies violations and saves cropped images for further processing or enforcement.
 This project uses a **custom-trained YOLOv8 model** for highly accurate helmet detection.
-[![Video](images/thumbnail.png)](https://drive.google.com/file/d/1HeGHdO_bSpHxVDIbSLfsiOSrmCX-meCp/view?usp=sharing)
 
 ---
 
@@ -125,6 +124,11 @@ This large dataset significantly improved model performance and real-world accur
 
 Training done on Google Colab with YOLOv8n (fast lightweight model).
 
+
+Click this Thubnail to play a demo video 👇👇
+[![Video](images/thumbnail.png)](https://drive.google.com/file/d/1HeGHdO_bSpHxVDIbSLfsiOSrmCX-meCp/view?usp=sharing)
+
+
 ### **Training Script**
 ```python
 from ultralytics import YOLO
@@ -154,3 +158,6 @@ smart-helmet-ai-smart-visor/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+
+
