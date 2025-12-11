@@ -4,7 +4,7 @@
 Smart Helmet AI – Smart Visor is an AI-based system that detects whether a rider is **wearing a helmet or not**.  
 The system automatically identifies violations and saves cropped images for further processing or enforcement.
 This project uses a **custom-trained YOLOv8 model** for highly accurate helmet detection.
-[![Video](https://via.placeholder.com/800x400?text=Click+to+watch+video)](https://drive.google.com/file/d/1HeGHdO_bSpHxVDIbSLfsiOSrmCX-meCp/view?usp=sharing)
+[![Video](assets/thumbnail.png)](https://drive.google.com/file/d/1HeGHdO_bSpHxVDIbSLfsiOSrmCX-meCp/view?usp=sharing)
 
 ---
 
